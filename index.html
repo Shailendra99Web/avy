@@ -10,8 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Oswald&family=Poppins:wght@400;700&family=Roboto+Mono&family=Signika+Negative:wght@400;700&display=swap" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/0b925a0b9b.js" crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/0b925a0b9b.js" crossorigin="anonymous"></script>
     <style>
 
         /* font-family: 'Amaranth', sans-serif; */
@@ -20,8 +19,27 @@
         /* font-family: 'Roboto Mono', monospace; */
         /* font-family: 'Signika Negative', sans-serif; */
 
+        /* loader */
+        #loader {
+            border: 12px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 12px solid #444444;
+            width: 70px;
+            height: 70px;
+            animation: spin 1s linear infinite;
+        }
+ 
+        .center {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
         #start-section{
-            background-image: url('assets/bg-1yiCGGKS.jpg');
+            background-image: url('/assets/bg-1yiCGGKS.jpg');
         }
 
         .work-info-text {
@@ -56,55 +74,55 @@
         }
 
         #roven99info-img {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(assets/R99-GAMING-INFO-xjUOwM2t.jpg);
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(/assets/R99-GAMING-INFO-xjUOwM2t.jpg);
             background-size: cover;
             background-position: center;
         }
 
         #textUtils-img {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(assets/TextUtils-AXHOovH0.jpg);
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(/assets/TextUtils-AXHOovH0.jpg);
             background-size: cover;
             background-position: center;
         }
 
         #ssv-dance-img {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(assets/SSV-Dance-Academy-gBvxTu7T.jpg);
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(/assets/SSV-Dance-Academy-gBvxTu7T.jpg);
             background-size: cover;
             background-position: center;
         }
 
         #mcq-quiz-img {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(assets/MCQ-Quiz-_8abmrAg.png);
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(/assets/MCQ-Quiz-_8abmrAg.png);
             background-size: cover;
             background-position: center;
         }
 
         #microsoft-img {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(assets/Microsoft-249Vr3zD.jpg);
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(/assets/Microsoft-249Vr3zD.jpg);
             background-size: cover;
             background-position: center;
         }
 
         #inotebook-img {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(assets/iNotebook-gfA61o8P.jpg);
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(/assets/iNotebook-gfA61o8P.jpg);
             background-size: contain;
             /* background-position: ; */
         }
 
         #newscroco-img {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(assets/NewsCroco-3-rzcrnN.jpg);
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(/assets/NewsCroco-3-rzcrnN.jpg);
             background-size: contain;
             /* background-position: ; */
         }
 
         #ssv-fitness-img {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(assets/SSV-Fitness-n8odlwpt.jpg);
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(/assets/SSV-Fitness-n8odlwpt.jpg);
             background-size: contain;
             /* background-position: ; */
         }
 
         #cinemaki-booking-img {
-            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(assets/Cinemaki-Booking-LcKTj-Ok.jpg);
+            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 49%, rgba(0, 0, 0, 0.6026785714285714) 77%, rgba(0, 0, 0, 0.865983893557423) 97%), url(/assets/Cinemaki-Booking-LcKTj-Ok.jpg);
             background-size: contain;
             /* background-position: ; */
         }
@@ -168,6 +186,12 @@
             /*You just need this if you are only concerned with android and not desktop browsers.*/
             -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         }
+ 
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
 
         @keyframes blinking {
             0% {
@@ -190,11 +214,13 @@
         }
 
     </style>
-  <script type="module" crossorigin src="assets/index-BAsPWeuY.js"></script>
-  <link rel="stylesheet" crossorigin href="assets/index-mmX8lh45.css">
+  <script type="module" crossorigin src="/assets/index-6tdvEPe7.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-T3uePceS.css">
 </head>
 
 <body class="bg-gray-700 text-gray-100">
+
+    <div id="loader" class="center"></div>
 
     <nav id="navbar" class="noselect px-4 py-4 w-full fixed top-0 z-10">
         <div class="pb-4 flex justify-between items-center content-center flex-wrap">
@@ -428,13 +454,27 @@
             Shailendra. | Reference by <a href="https://yasio.dev/" class="text-purple-700 hover:underline">Yasio.dev</a></p>
     </footer>
 
+    <script>
+        document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
             strings: ['Frontend Developer', 'Backend Developer', 'Fullstack Developer'],
             typeSpeed: 50,
         });
-    </script>
-
+    </script>
 </body>
 </html>
